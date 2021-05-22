@@ -30,7 +30,7 @@ function App() {
 
   return (
     <MyContext.Provider value={{emojiData,setEmojiData,searchValue,setSearchValue}}>
-    <div className="App">
+    <div className="App" style={{background:"linear-gradient(to right,pink,black)"}}>
       <Header />
       <SearchEmoji />
       <EmojiContainer />
